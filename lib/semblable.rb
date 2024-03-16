@@ -9,7 +9,7 @@ module Semblable
     def self.symbolify(* args)
       args.each do |column|
         define_method "#{column}" do
-          read_attribute(column.to_sym).to_sym
+          read_attribute(column.to_sym).to_s.to_sym
         end
       end
     end
