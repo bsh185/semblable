@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["bashar alsrhah"]
   spec.email = ["b.m.shrah@gmail.com"]
 
-  spec.summary = "Converts activerecord columns to return sym object"
-  spec.description = "Converts activerecord columns to return sym object"
+  spec.summary = "Converts activerecord columns to return symbol object"
+  spec.description = "Converts activerecord columns to return symbol object"
   spec.homepage = "https://github.com/bsh185/semblable"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
